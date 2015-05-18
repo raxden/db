@@ -2,10 +2,10 @@ package com.raxdenstudios.db.task;
 
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.os.AsyncTaskImproved;
+import android.os.AsyncTask;
 import android.util.Log;
 
-public abstract class DBTask<T> extends AsyncTaskImproved<Object, Void, T> {
+public abstract class DBTask<T> extends AsyncTask<Object, Void, T> {
 
     private static final String TAG = DBTask.class.getSimpleName();
 	
