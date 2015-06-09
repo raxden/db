@@ -46,5 +46,5 @@ dependencies {
     compile 'com.google.android.gms:play-services:+'
     compile 'com.android.support:appcompat-v7:+'
 
-    compile 'com.github.raxden:androidcommons:v2.0.12'
+    compile 'com.github.raxden:androidcommons:v2.0.12@aar'
 }
