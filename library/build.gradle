@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven'
 
 group = 'com.raxdenstudios'
-version = '2.0.5'
+version = '2.0.6'
 
 android {
     compileSdkVersion 22
@@ -36,7 +36,7 @@ dependencies {
     compile 'com.google.android.gms:play-services:+'
     compile 'com.android.support:appcompat-v7:+'
 
-    compile 'com.github.raxden:androidcommons:v2.0.14'
+    compile 'com.github.raxden:androidcommons:v2.0.15@aar'
 }
 
 // build a jar with source files
