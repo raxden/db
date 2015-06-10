@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'com.raxdenstudios'
-version = '2.0.12'
+version = '2.1.0'
 
 android {
     compileSdkVersion 22
@@ -28,10 +28,7 @@ android {
 }
 
 repositories {
-//    maven { url "https://jitpack.io" }
-    flatDir {
-        dirs 'libs'
-    }
+    maven { url "https://jitpack.io" }
 }
 
 dependencies {
@@ -39,8 +36,7 @@ dependencies {
     compile 'com.google.android.gms:play-services:+'
     compile 'com.android.support:appcompat-v7:+'
 
-    compile(name:'androidcommons-v2.0.17', ext:'aar')
-//    compile 'com.github.raxden:androidcommons:v2.0.17@aar'
+    compile 'com.github.raxden:androidcommons:v2.1.0@aar'
 }
 
 // build a jar with source files
