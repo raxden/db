@@ -32,11 +32,11 @@ repositories {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: '*.jar')
-    compile 'com.google.android.gms:play-services:+'
-    compile 'com.android.support:appcompat-v7:+'
-
-    compile 'com.github.raxden:androidcommons:v2.0.16@aar'
+//    compile fileTree(dir: 'libs', include: '*.jar')
+//    compile 'com.google.android.gms:play-services:+'
+//    compile 'com.android.support:appcompat-v7:+'
+//
+//    compile 'com.github.raxden:androidcommons:v2.0.16@aar'
 }
 
 // build a jar with source files
