@@ -10,9 +10,9 @@ public abstract class DBTask<T> extends AsyncTask<Object, Void, T> {
     private static final String TAG = DBTask.class.getSimpleName();
 	
 	public interface DBTaskCallbacks<T> {
-		public void onBeginTransaction(SQLiteDatabase db);
-		public void onPreFinalizeTransaction(SQLiteDatabase db, T result);
-		public void onCompletion(T result);
+		void onBeginTransaction(SQLiteDatabase db);
+		void onPreFinalizeTransaction(SQLiteDatabase db, T result);
+		void onCompletion(T result);
 	};
 		
 	protected DBTaskCallbacks<T> callbacks;
