@@ -1,9 +1,9 @@
 Android DB
 ==========
 
-Android DB is a library that allows access to the database synchronously and asynchronously. Works on Android 2.3 (API level 10) and upwards.
+Android DB is a library that allows access to the database synchronously and asynchronously. Works on Android 4.1 (API level 16) and upwards.
 
-[![Release](https://img.shields.io/github/release/raxden/AndroidDB.svg?label=maven central)](https://jitpack.io/#raxden/AndroidDB/) [![API](https://img.shields.io/badge/API-10%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=10)
+[![Release](https://img.shields.io/github/release/raxden/AndroidDB.svg?label=maven central)](https://jitpack.io/#raxden/AndroidDB/) [![API](https://img.shields.io/badge/API-16%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=16)
 
 ## Usage
 
@@ -18,7 +18,7 @@ repositories {
 }
 
 dependencies {
-	    compile 'com.github.raxden:AndroidDB:v2.1.7@aar'
+	    compile 'com.github.raxden:AndroidDB:v2.2.0@aar'
 }
 ```
 
@@ -33,7 +33,7 @@ dependencies {
 <dependency>
 	    <groupId>com.github.raxden</groupId>
 	    <artifactId>AndroidDB</artifactId>
-	    <version>v2.1.7</version>
+	    <version>v2.2.0</version>
 </dependency>
 ```
 
