@@ -16,23 +16,23 @@ public abstract class DBManager<T> {
 	public static final int CONFLICT_ALGORITHM = SQLiteDatabase.CONFLICT_IGNORE;
 
 	public interface DBFindCallbacks<T> {
-		public void dataFound(T data);
+		void dataFound(T data);
 	}
 
 	public interface DBFindAllCallbacks<T> {
-		public void dataFound(List<T> data);
+		void dataFound(List<T> data);
 	}
 	
 	public interface DBSaveCallbacks<T> {
-		public void dataSaved(T data);
+		void dataSaved(T data);
 	}	
 	
 	public interface DBDeleteCallbacks<T> {
-		public void dataDeleted(T data);
+		void dataDeleted(T data);
 	}
 	
 	public interface DBDeleteAllCallbacks<T> {
-		public void dataDeleted(List<T> data);
+		void dataDeleted(List<T> data);
 	}
 	
 	private SQLiteOpenHelper oh;

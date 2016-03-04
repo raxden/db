@@ -43,4 +43,5 @@ dependencies {
 
 ### Documentation 
 
-For a **detailed documentation**, please have a look at the [**Wiki**](https://github.com/raxden/AndroidDB/wiki).
+
+For a **detailed documentation**, please have a look at the [**Wiki**](https://github.com/raxden/AndroidDB/wiki) or the [**Javadocs**](https://jitpack.io/com/github/raxden/AndroidDB/v2.2.0/javadoc/).

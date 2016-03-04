@@ -5,9 +5,10 @@ import android.database.Cursor;
 
 public interface DatabaseParcelable {
 
-	public abstract ContentValues readContentValues();
+	ContentValues readContentValues();
 	
-	public static abstract interface Creator<T> {
-		public abstract T createFromCursor(Cursor cursor);
+	interface Creator<T> {
+		T createFromCursor(Cursor cursor);
 	}
+
 }

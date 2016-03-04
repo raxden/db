@@ -84,9 +84,4 @@ public class SelectDBTask extends DBTask<Cursor> {
 		}
 	}
 
-	@Deprecated
-	public void setWritableDatabase(boolean writableDatabase) {
-		this.writableDatabase = writableDatabase;
-	}
-
 }
